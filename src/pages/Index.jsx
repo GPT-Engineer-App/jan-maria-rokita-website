@@ -7,12 +7,12 @@ const Index = () => {
     <Box maxWidth="800px" margin="auto" padding={8}>
       <VStack spacing={8} align="stretch">
         <HStack spacing={8} align="center">
-          <Image src="https://images.unsplash.com/photo-1507679799987-c73779587ccf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBoZWFkc2hvdCUyMG9mJTIwSmFuJTIwTWFyaWElMjBSb2tpdGF8ZW58MHx8fHwxNzEyMDU0OTEyfDA&ixlib=rb-4.0.3&q=80&w=1080" alt="Jan Maria Rokita" borderRadius="full" boxSize="150px" />
+          <Image src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Jan_Rokita_Sejm_2016.JPG/1024px-Jan_Rokita_Sejm_2016.JPG" alt="Jan Maria Rokita" borderRadius="full" boxSize="150px" />
           <VStack align="start" spacing={2}>
             <Heading as="h1" size="2xl">
               Jan Maria Rokita
             </Heading>
-            <Text fontSize="xl">Software Engineer & Web Developer</Text>
+            <Text fontSize="xl">Polish Politician</Text>
           </VStack>
         </HStack>
 
@@ -20,7 +20,7 @@ const Index = () => {
           <Heading as="h2" size="xl">
             About Me
           </Heading>
-          <Text>I am a passionate software engineer with expertise in web development. I enjoy building scalable and user-friendly applications using modern technologies. My goal is to create impactful solutions that solve real-world problems.</Text>
+          <Text>Jan Maria Rokita is a prominent Polish politician, lawyer, and former member of the Sejm, the lower house of the Polish parliament. He has been actively involved in Polish politics since the 1990s and has held various positions in the government and political parties.</Text>
         </VStack>
 
         <VStack align="start" spacing={4}>
@@ -28,13 +28,11 @@ const Index = () => {
             Skills
           </Heading>
           <HStack spacing={4} wrap="wrap">
-            <Tag>JavaScript</Tag>
-            <Tag>React</Tag>
-            <Tag>Node.js</Tag>
-            <Tag>HTML</Tag>
-            <Tag>CSS</Tag>
-            <Tag>Git</Tag>
-            <Tag>Agile</Tag>
+            <Tag>Political Strategy</Tag>
+            <Tag>Legislation</Tag>
+            <Tag>Public Speaking</Tag>
+            <Tag>Negotiation</Tag>
+            <Tag>Leadership</Tag>
           </HStack>
         </VStack>
 
@@ -42,8 +40,8 @@ const Index = () => {
           <Heading as="h2" size="xl">
             Projects
           </Heading>
-          <ProjectCard title="E-commerce Website" description="Developed a full-stack e-commerce website using React, Node.js, and MongoDB." link="https://github.com/janrokita/ecommerce" />
-          <ProjectCard title="Task Manager App" description="Created a task management application with user authentication and real-time updates." link="https://github.com/janrokita/taskmanager" />
+          <ProjectCard title="Civic Platform Party" description="Served as a prominent member of the Civic Platform party and held various leadership positions." link="https://en.wikipedia.org/wiki/Civic_Platform" />
+          <ProjectCard title="Parliamentary Work" description="Actively participated in parliamentary committees and contributed to the development of important legislation." link="https://en.wikipedia.org/wiki/Jan_Maria_Rokita#Parliamentary_career" />
         </VStack>
 
         <Divider />
